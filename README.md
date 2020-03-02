@@ -1,5 +1,5 @@
 # PointNet.pytorch
-Minimal PyTorch (1.4) implementation for PointNet(https://arxiv.org/abs/1612.00593) inspired by the [Tensorflow implementation](https://github.com/charlesq34/pointnet).
+Minimal PyTorch (1.4) implementation for [PointNet](https://arxiv.org/abs/1612.00593) inspired by the [Tensorflow implementation](https://github.com/charlesq34/pointnet).
 
 # Download data and running
 
