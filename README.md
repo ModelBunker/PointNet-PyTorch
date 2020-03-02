@@ -5,8 +5,9 @@ Minimal PyTorch (1.4) implementation for [PointNet](https://arxiv.org/abs/1612.0
 
 ```
 https://github.com/ModelBunker/PointNet-PyTorch
-PointNet-PyTorch
-pip install -e .
+cd PointNet-PyTorch
+cd model
+python model.py
 ```
 
 Download and build visualization tool
