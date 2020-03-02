@@ -1,13 +1,11 @@
 # PointNet.pytorch
-This repo is implementation for PointNet(https://arxiv.org/abs/1612.00593) in pytorch. The model is in `pointnet/model.py`.
-
-It is tested with pytorch-1.0.
+Minimal PyTorch (1.4) implementation for [PointNet](https://arxiv.org/abs/1612.00593) inspired by the [Tensorflow implementation](https://github.com/charlesq34/pointnet).
 
 # Download data and running
 
 ```
-git clone https://github.com/fxia22/pointnet.pytorch
-cd pointnet.pytorch
+https://github.com/ModelBunker/PointNet-PyTorch
+PointNet-PyTorch
 pip install -e .
 ```
 
@@ -61,8 +59,3 @@ Note that this implementation trains each class separately, so classes with fewe
 
 Sample segmentation result:
 ![seg](https://raw.githubusercontent.com/fxia22/pointnet.pytorch/master/misc/show3d.png?token=AE638Oy51TL2HDCaeCF273X_-Bsy6-E2ks5Y_BUzwA%3D%3D)
-
-# Links
-
-- [Project Page](http://stanford.edu/~rqi/pointnet/)
-- [Tensorflow implementation](https://github.com/charlesq34/pointnet)
